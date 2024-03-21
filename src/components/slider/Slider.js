@@ -41,6 +41,7 @@ const Slider = () => {
     },[currentSlide])
 
   return (
+    <div className='container'>
     <div className='slider'>
       <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide}/>
       <AiOutlineArrowRight className="arrow next" onClick={nextSlide}/>
@@ -61,6 +62,7 @@ const Slider = () => {
         )
       })}
 
+    </div>
     </div>
   )
 }
