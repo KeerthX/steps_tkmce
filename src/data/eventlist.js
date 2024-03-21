@@ -1,0 +1,63 @@
+export const y2024 = [
+    {
+        id:0,
+        name:"event1",
+        img:'logo192.png'
+    },
+    {
+        id:1,
+        name:"event1",
+        img:'logo192.png'
+    },{
+        id:2,
+        name:"event2",
+        img:'logo192.png'
+    },
+    {
+        id:3,
+        name:"event3",
+        img:'logo192.png'
+    },
+]
+export const y2023 = [
+    {
+        id:0,
+        name:"event1",
+        img:'logo192.png'
+    },
+    {
+        id:1,
+        name:"event1",
+        img:'logo192.png'
+    },{
+        id:2,
+        name:"event2",
+        img:'logo192.png'
+    },
+    {
+        id:3,
+        name:"event3",
+        img:'logo192.png'
+    },
+]
+export const y2022 = [
+    {
+        id:0,
+        name:"event1",
+        img:'logo192.png'
+    },
+    {
+        id:1,
+        name:"event1",
+        img:'logo192.png'
+    },{
+        id:2,
+        name:"event2",
+        img:'logo192.png'
+    },
+    {
+        id:3,
+        name:"event3",
+        img:'logo192.png'
+    },
+]
