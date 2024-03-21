@@ -1,9 +1,9 @@
 .slider{
-    width:90%;
-    height:80vh;
+    width:50%;
+    height:50vh;
     position:relative;
-    margin:auto;
-    margin-top:75px;
+    margin-left: 325px;
+    margin-top: 170px;
 
 }
 .slide{
@@ -32,11 +32,12 @@
 .content{
     position:absolute;
     top:23rem;
-    left:5rem;
+    left:0rem;
     opacity: 0; 
-    width:50%;
+    width:90%;
+    height:50%;
     padding:3rem;
-    background: rgba(0,0,0,.3);
+    /* background: rgba(0,0,0,.3); */
     animation:slide-up 1s ease .5s;
     animation-fill-mode: forwards;
     /* visibility:hidden; */
@@ -49,7 +50,7 @@
     }
     100%{
         visibility: visible;
-        top:17rem;
+        top:8rem;
     }
 }
 @media screen and (max-width:600px){
