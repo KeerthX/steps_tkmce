@@ -6,6 +6,7 @@ const About_Us = () => {
    
     <div className="container">
       <h1>About Us</h1>
+      <div className="outer-box">
       <div className="row">
         <div className="column">
           <img src={aboutus} />
@@ -35,6 +36,7 @@ const About_Us = () => {
         <div className="column">
           <img src={aboutus} />
         </div>
+      </div>
       </div>
     </div>
   );
