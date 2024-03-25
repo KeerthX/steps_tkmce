@@ -1,36 +1,28 @@
 
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
+import Slider from './components/slider/Slider';
+import Event from './components/events/Event';
+import Home from './components/home/Home';
 import About_Us from './components/about_us/About_Us';
 import Contact from './components/contact-us/Contact';
-
-import Home from './components/home/Home';
-import Slider from './components/slider/Slider';
-
-import Navbar from './components/navbar/Navbar';
-import Event from './components/events/Event';
-
-
-
 
 
 const App = () => {
   return (
     <div>
 
-       <BrowserRouter>
-       <Navbar />
-       <Routes>
-       <Route path="/" exact component={Home} />
-          <Route path="/about" component={About_Us} />
-           <Route path="/event" component={Event} />
-           <Route path="/gallery" component={Slider} />
-          <Route path="/contact" component={Contact} />
-       </Routes>
-       </BrowserRouter>
 
-    
-      
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about" element={<About_Us />} />
+        <Route path="/events" element={<Event />} />
+        <Route path="/contact"  element={<Contact />}/>
+      </Routes>
+
+
+
+
     </div>
   )
 }

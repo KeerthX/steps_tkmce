@@ -4,12 +4,12 @@ import aboutus from "../Asset/aboutus.jpeg";
 const About_Us = () => {
   return (
    
-    <div className="container">
+    <div className="container p-10">
       <h1>About Us</h1>
       <div className="outer-box">
       <div className="row">
         <div className="column">
-          <img src={aboutus} />
+          <img src={aboutus} alt="about1"/>
         </div>
         <div className="column">
           <h4>About Us</h4>
@@ -34,7 +34,7 @@ const About_Us = () => {
           </p>
         </div>
         <div className="column">
-          <img src={aboutus} />
+          <img src={aboutus} alt="about2"/>
         </div>
       </div>
       </div>

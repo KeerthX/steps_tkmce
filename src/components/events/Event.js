@@ -4,8 +4,8 @@ import Eventcard from './Eventcard'
 
 const Event = () => {
     return (
-        <div className='p-10 bg-sky-700'>
-            <div className='flex justify-center '>
+        <div className='p-10 bg-sky-700 '>
+            <div className='flex justify-center  pt-20'>
                 <h1 className='text-6xl'>EVENTS</h1>
             </div>
             <div className='flex justify-center items-center'>
