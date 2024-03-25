@@ -4,14 +4,14 @@ import aboutus from "../Asset/aboutus.jpeg";
 const About_Us = () => {
   return (
    
-    <div className="container p-10">
-      <h1>About Us</h1>
-      <div className="outer-box">
-      <div className="row">
-        <div className="column">
+    <div className=" w-full h-full   ">
+  
+      <div className="flex-col gap-10 p-4 ">
+      <div className="sm:flex  pt-32 gap-10 ">
+        <div className="sm:w-1/2 w-full">
           <img src={aboutus} alt="about1"/>
         </div>
-        <div className="column">
+        <div className="flex flex-col items-center justify-center sm:w-1/2 w-full">
           <h4>About Us</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
@@ -22,9 +22,10 @@ const About_Us = () => {
           </p>
         </div>
       </div>
-      <div className="row">
-        <div className="column">
-          <h4>About Us</h4>
+      <div className="sm:flex gap-10   ">
+        
+        <div className="flex flex-col items-center justify-center sm:w-1/2 w-full">
+        <h4>About Us</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
             perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -32,9 +33,10 @@ const About_Us = () => {
             perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium.
           </p>
+          
         </div>
-        <div className="column">
-          <img src={aboutus} alt="about2"/>
+        <div className="sm:w-1/2 w-full">
+          <img src={aboutus} alt="about1"/>
         </div>
       </div>
       </div>

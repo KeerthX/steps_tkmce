@@ -12,7 +12,7 @@ const Navbar = () => {
         </Link>
         </div>
         
-        <div className="navbar-links">
+        <div className=" hidden md:flex">
           <Link to="/" className="navbar-link">
             Home
           </Link>

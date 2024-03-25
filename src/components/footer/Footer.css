@@ -4,10 +4,7 @@
     
     
 }
-.footer-section{
-    display:flex;
-    flex-direction: column;
-}
+
 .footer-links{
     display: flex;
     justify-content: space-between;
@@ -17,7 +14,6 @@
     width:100%;
     text-align: left;
     margin-bottom: 2rem;
-
 }
 .footer-links-div{
     width:150px;

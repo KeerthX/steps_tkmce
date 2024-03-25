@@ -39,7 +39,7 @@ const Slider = () => {
   }, [currentSlide]);
 
   return (
-    <div className="banner">
+    <div className="banner sm:h-full sm:w-full h-96 w-full   pt-32 pb-20 sm:pb-10">
       <div className="slider">
         <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
         <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
@@ -54,8 +54,7 @@ const Slider = () => {
                 <>
                   <img src={slide.image} alt="slide" />
                   <div className="content">
-                    <h2>{slide.heading}</h2>
-                    <p>{slide.desc}</p>
+                    
                   </div>
                 </>
               )}
