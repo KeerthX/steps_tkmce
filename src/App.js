@@ -6,6 +6,7 @@ import Event from './components/events/Event';
 import Home from './components/home/Home';
 import About_Us from './components/about_us/About_Us';
 import Contact from './components/contact-us/Contact';
+import Gallery from './components/Gallery/Gallery';
 
 
 const App = () => {
@@ -15,8 +16,8 @@ const App = () => {
 
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/about" element={<About_Us />} />
         <Route path="/events" element={<Event />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact"  element={<Contact />}/>
       </Routes>
 

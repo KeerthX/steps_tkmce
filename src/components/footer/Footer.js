@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer bg-[#232F3E]'>
       <div className='footer-section'>
         <div className='footer-links flex-col md:flex  '>
           <div className='footer-links-div'>

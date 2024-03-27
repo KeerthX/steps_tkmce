@@ -4,7 +4,7 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     
-      <div className="navbar">
+      <div className="navbar bg-white font-poppins ">
       <div className="navbar-container">
         <div className='logo'>
         <Link to="/" className="navbar-logo">
@@ -18,9 +18,6 @@ const Navbar = () => {
           </Link>
           <Link to="/gallery" className="navbar-link">
           Gallery
-          </Link>
-          <Link to="/about" className="navbar-link">
-            About
           </Link>
           <Link to="/events" className="navbar-link">
             Events

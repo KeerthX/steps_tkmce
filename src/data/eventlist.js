@@ -2,62 +2,62 @@ export const y2024 = [
     {
         id:0,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:1,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },{
         id:2,
         name:"event2",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:3,
         name:"event3",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
 ]
 export const y2023 = [
     {
         id:0,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:1,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },{
         id:2,
         name:"event2",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:3,
         name:"event3",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
 ]
 export const y2022 = [
     {
         id:0,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:1,
         name:"event1",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },{
         id:2,
         name:"event2",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
     {
         id:3,
         name:"event3",
-        img:'logo192.png'
+        img:'/background/trika.jpeg'
     },
 ]
