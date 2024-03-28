@@ -1,9 +1,3 @@
-button {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
 
 img {
   display: block;
@@ -21,102 +15,34 @@ article {
   animation: bannermove 20s linear infinite;
 }
 
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transform: translateX(-50%);
-    transition: all 1s linear;
+article.paused {
+  animation-play-state: paused;
 }
 
-@media screen and (min-width:600px) {
-    .slide img {
-        width: 100%;
-        height: 100%;
-    }
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
 }
 
-.slide img {
-    width: 100%;
+li {
+  width: 100%; /* Each slide takes the full width */
 }
 
-.current {
-    opacity: 1;
+
+@keyframes bannermove {
+  0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
   }
 }
-
-.content {
-    font-family: 'Helvetica', Arial, sans-serif; 
-    /* font-family: 'Libre Baskerville', serif; */
-    position: absolute;
-    top: 23rem;
-    left: 0rem;
-    opacity: 0;
-    width: 90%;
-    height: 50%;
-    padding: 3rem;
-    animation: slide-up 1s ease .5s;
-    animation-fill-mode: forwards;
-
-}
-
-@keyframes slide-up {
-    0% {
-        visibility: visible;
-        top: 23rem;
-    }
-
-    100% {
-        visibility: visible;
-        top: 8rem;
-    }
-}
-
-@media screen and (max-width:600px) {
-    .content {
-        width: 80%;
-    }
-}
-
-.content>* {
-    color: #fff;
-    margin-bottom: 1rem;
-}
-
-.current .content {
-    opacity: 1;
-}
-
-.arrow {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    background: transparent;
-    color: #fff;
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
-    position: absolute;
-    top: 35%;
-    z-index: 999;
-}
-
-.arrow:hover {
-    background: #fff;
-    color: #777;
-}
-
-.next {
-    right: 1.5rem;
-}
-
-.prev {
-
-    left: 1.5rem;
+@media (max-width: 500px) {
+  article {
+    display: flex;
+    width: 700%; /* Width of the entire slider */
+    animation: bannermove 40s linear infinite;
+  }
 }

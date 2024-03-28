@@ -5,62 +5,40 @@ import "./Slider.css";
 const Slider = () => {
 
   return (
-    <>
-    <div className="banner">
-      <div className="slider-content">
-        <h2>Our Happy Moments</h2>
-        <p>
-          process to identify exactly where the initialization error is
-          occurring. Use logging or debugging{" "}
-        </p>
-      </div>
-      <div className="slider">
-        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+    <div className="bg-white">
+    <div className="flex pt-10 w-full ">
 
-        {sliderData.map((slide, index) => {
-          return (
-            <div
-              className={index === currentSlide ? "slide current" : "slide"}
-              key={index}
-            >
-              {index === currentSlide && (
-                <>
-                  <img src={slide.image} alt="slide" />
-                  <div className="content">
-                    <h2>{slide.heading}</h2>
-                    <p>{slide.desc}</p>
-                  </div>
-                </>
-              )}
-            </div>
-          );
-        })}
-      </div>
+    <hr style={{ border: 'none', height: '4px', background: '#05345E', marginTop: '25px'}} className="xl:w-40 lg:w-32 md:w-20  w-10" />
+
+    <div className="flex justify-center"><h1 className="text-4xl pb-10 font-poppins uppercase p-2 text-[#0B0B51]">Gallery</h1></div>
+
+    <hr style={{ border: 'none', height: '4px', background: '#05345E', marginTop:'25px',float:'left' }} className=" xl:w-72 lg:w-56 md:w-44 w-32 " />
+
+
+  </div>
+      <section>
+
+        <article>
+          <div>
+            <ul>
+              <li><img src="/background/photo1.jpg" className="h-[400px] w-[600px]" /></li>
+              <li><img src="/background/photo2.jpg" className="h-[400px] w-[600px]" /></li>
+              <li><img src="/background/photo3.jpg" className="h-[400px] w-[600px]"  /></li>
+              <li><img src="/background/photo4.jpg" className="h-[400px] w-[600px]"  /></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+            <li><img src="/background/photo1.jpg" className="h-[400px] w-[600px]"  /></li>
+            <li><img src="/background/photo2.jpg" className="h-[400px] w-[600px]"  /></li>
+            <li><img src="/background/photo3.jpg" className="h-[400px] w-[600px]"  /></li>
+            <li><img src="/background/photo4.jpg" className="h-[400px] w-[600px]"  /></li>
+
+            </ul>
+          </div>
+        </article>
+      </section>
     </div>
-    <section>
-  
-    <article>
-      <div>
-        <ul>
-          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
-          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
-        </ul>
-      </div>
-    </article>
-  </section>
-  </>
-  
   );
 };
 
