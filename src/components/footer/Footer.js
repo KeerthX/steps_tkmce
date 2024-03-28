@@ -24,13 +24,13 @@ const Footer = () => {
         <div className="footer-links-div-right">
             <h4>TEAM</h4>
             <a href="/employer">
-              <p>about</p> 
+              <p>team</p> 
             </a>
         </div>
         <div className="footer-links-div-right">
             <h4>CONTACT</h4>
             <a href="/employer">
-              <p>about</p> 
+              <p>contact</p> 
             </a>
         </div>
         </div>
