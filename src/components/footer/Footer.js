@@ -6,44 +6,43 @@ const Footer = () => {
       <div className="footer-section">
         <div className="footer-links">
           <div className="footer-links-div">
-            <h4>For business</h4>
+            <h4>STEPS TKMCE</h4>
             <a href="/employer">
-              <p>Employer</p>
-            </a>
-            <a href="/employer">
-              <p>Employer</p>
-            </a>
-            <a href="/employer">
-              <p>Employer</p>
+              <p>This CSS code will create a linear gradient that starts with a dark blue 
+                color #000080 at the top and transitions to black #000 at the bottom. Make 
+              </p> 
             </a>
           </div>
-          <div className="footer-links-div">
-            <h4>For business</h4>
+         
+         <div className="footer-right">
+          <div className="footer-links-div-right">
+            <h4>ABOUT</h4>
             <a href="/employer">
-              <p>Employer</p>
+              <p>about</p> 
             </a>
+        </div>
+        <div className="footer-links-div-right">
+            <h4>TEAM</h4>
             <a href="/employer">
-              <p>Employer</p>
+              <p>about</p> 
             </a>
+        </div>
+        <div className="footer-links-div-right">
+            <h4>CONTACT</h4>
             <a href="/employer">
-              <p>Employer</p>
+              <p>about</p> 
             </a>
+        </div>
+        </div>
+
+        <hr></hr>
+        <div className="footer-below">
+          <div className="footer-copyright">
+            <p className="copy-color">
+              Copyright &copy; 2024 Your Company. All rights reserved.
+            </p>
           </div>
-          <div className="footer-links-div">
-            <h4>For business</h4>
-            <a href="/employer">
-              <p>Employer</p>
-            </a>
-            <a href="/employer">
-              <p>Employer</p>
-            </a>
-            <a href="/employer">
-              <p>Employer</p>
-            </a>
-          </div>
-          <div className="footer-links-div">
-            <h4>FOLLOW</h4>
-            <div className="socialmedia">
+          <div className="socialmedia">
               <a href="https://www.facebook.com/yourpage" target="_blank">
                 icon1<i class="fab fa-facebook-f"></i>
               </a>
@@ -57,41 +56,11 @@ const Footer = () => {
                 icon4<i class="fab fa-linkedin"></i>
               </a>
             </div>
-          </div>
-        </div>
-        <hr></hr>
-        <div className="footer-below">
-          <div className="footer-copyright">
-            <p className="copy-color">
-              {" "}
-              Copyright &copy; 2024 Your Company. All rights reserved.
-            </p>
-          </div>
-          <div className="footer-below-links">
-            <a>
-              <div>
-                <p>abcdefg</p>
-              </div>
-            </a>
-            <a>
-              <div>
-                <p>abcdefg</p>
-              </div>
-            </a>
-            <a>
-              <div>
-                <p>abcdefg</p>
-              </div>
-            </a>
-            <a>
-              <div>
-                <p>abcdefg</p>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 
