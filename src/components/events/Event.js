@@ -4,8 +4,8 @@ import Eventcard from './Eventcard'
 
 const Event = () => {
     return (
-        <div className='p-10  'style={{
-      backgroundImage: `linear-gradient(
+        <div className='p-10  ' style={{
+            backgroundImage: `linear-gradient(
         150deg,
         hsl(208deg, 90%, 19%) 0%,
         hsl(208deg, 90%, 19%) 2%,
@@ -28,15 +28,15 @@ const Event = () => {
         hsl(208deg, 90%, 19%) 95%,
         hsl(208deg, 90%, 19%) 100%
       )`
-    }}>
+        }}>
             <div className='flex justify-center  pt-20'>
                 <h1 className='text-6xl'>EVENTS</h1>
             </div>
             <div className='flex justify-center items-center'>
-                <div className='grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center items-center pt-10 space-y-10 space-x-5'>
+                <div className='mt-12 flex flex-wrap justify-center items-center gap-5 pr-10 pl-10'>
 
-                    <div className='bg-blue-700 sm:w-10 sm:h-fit w-48 h-10 p-2 md:ml-0 ml-5 '>
-                        <div className='flex sm:flex-col justify-center items-center text-center' >
+                    <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
+                        <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
                             <p>2</p>
                             <p>0</p>
                             <p>2</p>
@@ -51,15 +51,15 @@ const Event = () => {
                             )
                         })
                     }
-                    
-                    <div className='bg-blue-700 sm:w-10 sm:h-fit w-48 h-10 p-2'>
-                        <div className='flex sm:flex-col justify-center items-center text-center' >
-                            <p>2</p>
-                            <p>0</p>
-                            <p>2</p>
-                            <p>3</p>
-                        </div>
+
+                    <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
+                    <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
+                        <p>2</p>
+                        <p>0</p>
+                        <p>2</p>
+                        <p>3</p>
                     </div>
+                </div>
                     {
                         y2023.map((event) => {
                             return (
@@ -67,14 +67,14 @@ const Event = () => {
                             )
                         })
                     }
-                    <div className='bg-blue-700 sm:w-10 sm:h-fit w-48 h-10 p-2'>
-                        <div className='flex sm:flex-col justify-center items-center text-center' >
-                            <p>2</p>
-                            <p>0</p>
-                            <p>2</p>
-                            <p>2</p>
-                        </div>
+                    <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
+                    <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
+                        <p>2</p>
+                        <p>0</p>
+                        <p>2</p>
+                        <p>2</p>
                     </div>
+                </div>
                     {
                         y2022.map((event) => {
                             return (

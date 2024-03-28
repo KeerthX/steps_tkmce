@@ -1,4 +1,3 @@
-
 button {
   position: absolute;
   top: 0;
@@ -18,30 +17,23 @@ section {
 
 article {
   display: flex;
-  width: 200%;
+  width: 200%; /* Width of the entire slider */
   animation: bannermove 20s linear infinite;
 }
 
 article.paused {
-  -webkit-animation-play-state: paused;
   animation-play-state: paused;
-}
-
-div {
-  width: 100%;
 }
 
 ul {
   display: flex;
-  background: red;
   list-style-type: none;
   padding-left: 0;
   margin: 0;
 }
 
 li {
-  width: 100%;
-  background: blue;
+  width: 100%; /* Each slide takes the full width */
 }
 
 li:nth-child(2) {

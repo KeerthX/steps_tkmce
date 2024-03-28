@@ -34,7 +34,7 @@ const Slider = () => {
       <h1 className="text-4xl">Gallery</h1>
     </div>
     <section>
-    <button>Pause</button>
+  
     <article>
       <div>
         <ul>
