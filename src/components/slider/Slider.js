@@ -1,44 +1,11 @@
 import { useState, useEffect } from "react";
 import "./Slider.css";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import { sliderData } from "./Slider-Data";
+
 
 const Slider = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const slideLength = sliderData.length;
-  //slideLength=1 2 3
-  //currentslide=0 2 3
-
-  const autoScroll = false;
-  let slideInterval;
-  let intervalTime = 5000;
-
-  const nextSlide = () => {
-    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-  };
-
-  function auto() {
-    slideInterval = setInterval(nextSlide, intervalTime);
-  }
-
-  useEffect(() => {
-    setCurrentSlide(0);
-  }, []);
-
-  useEffect(() => {
-    if (autoScroll) {
-      auto();
-    }
-    return () => {
-      clearInterval(slideInterval);
-    };
-  }, [currentSlide]);
 
   return (
+    <>
     <div className="banner">
       <div className="slider-content">
         <h2>Our Happy Moments</h2>
@@ -71,6 +38,29 @@ const Slider = () => {
         })}
       </div>
     </div>
+    <section>
+  
+    <article>
+      <div>
+        <ul>
+          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/000000/ffffff.png" /></li>
+          <li><img src="http://dummyimage.com/600x400/eeeeee/cccccc.png" /></li>
+        </ul>
+      </div>
+    </article>
+  </section>
+  </>
+  
   );
 };
 
