@@ -35,9 +35,9 @@ const App = () => {
     
 
       <Home/>
+      <Event/>
       <Slider/>
       <About_Us/>
-      <Event/>
       <Contact/>
       <Footer/>
     </div>
