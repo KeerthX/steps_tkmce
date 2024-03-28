@@ -40,6 +40,13 @@ const Slider = () => {
 
   return (
     <div className="banner">
+      <div className="slider-content">
+        <h2>Our Happy Moments</h2>
+        <p>
+          process to identify exactly where the initialization error is
+          occurring. Use logging or debugging{" "}
+        </p>
+      </div>
       <div className="slider">
         <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
         <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
@@ -63,8 +70,6 @@ const Slider = () => {
           );
         })}
       </div>
-
-      
     </div>
   );
 };
