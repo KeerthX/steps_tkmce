@@ -12,7 +12,7 @@ const Eventslider = () => {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        arrows: false,
+        arrows: true,
         centeMode: true,
         autoplaySpeed: 2000,
         responsive: [
@@ -57,7 +57,7 @@ const Eventslider = () => {
                         <Slider {...settings}>
                             {y2024.map((event, index) => (
                                 <Link to={`/${event.link}`}>
-                                <div className='flex justify-center items-center pl-20 md:pl-0'>
+                                <div className='flex justify-center items-center pl-6 md:pl-0'>
                                     <img key={index} src={event.img} className='h-96 w-60 ' alt='hello' />
                                 </div>
                                 </Link>

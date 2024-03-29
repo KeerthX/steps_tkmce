@@ -42,9 +42,6 @@ const Navbar = () => {
           <Link to="/gallery" className="navbar-link">
           Gallery
           </Link>
-          <Link to="/about" className="navbar-link">
-            About
-          </Link>
           <Link to="/events" className="navbar-link">
             Events
           </Link>

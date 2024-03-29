@@ -11,7 +11,7 @@ function Itempage() {
     let eventData = eventData2022 || eventData2023 || eventData2024;
 
     return (
-        <div className="w-full h-full pt-20 p-2 font-poppins">
+        <div className="w-full  pt-20 p-2 font-poppins">
             <div className="border-4 border-[#0B0B51]   p-4  md:flex" >
                 <div className="md:w-1/2 w-full flex items-center justify-center">
                     <img src={eventData.img} className="h-64 w-48 object-cover" alt="Event" />

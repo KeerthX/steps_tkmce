@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Footer.css"
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
   return (
     <div className='footer bg-[#232F3E]'>
@@ -20,11 +22,11 @@ const Footer = () => {
 
       
           <div className='footer-links-div'>
-            <h4>icons</h4>
-            <p>hv gg jhvcyc vchgu vcjcg cvycgdj jhchci</p>
+            <h4>Contact</h4>
+            <p>stepstkmce@gmail.com</p>
             <div className='socialmedia'>
-              <a href="https://www.facebook.com/yourpage" target="_blank">icon1<i class="fab fa-facebook-f"></i></a>
-              <a href="https://twitter.com/yourpage" target="_blank">icon2<i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/yourpage" target="_blank"><InstagramIcon /></a>
+              <a href="https://twitter.com/yourpage" target="_blank"><LinkedInIcon /></a>
              
             </div>
 
