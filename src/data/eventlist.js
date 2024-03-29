@@ -1,63 +1,111 @@
 export const y2024 = [
     {
         id:0,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event12",
+        img:'/background/trika.jpeg',
+        link:'event12',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:1,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event11",
+        img:'/background/trika.jpeg',
+        link:'event11',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },{
         id:2,
-        name:"event2",
-        img:'/background/trika.jpeg'
+        name:"event10",
+        img:'/background/trika.jpeg',
+        link:'event10',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:3,
-        name:"event3",
-        img:'/background/trika.jpeg'
+        name:"event9",
+        img:'/background/trika.jpeg',
+        link:'event9',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
 ]
 export const y2023 = [
     {
         id:0,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event8",
+        img:'/background/trika.jpeg',
+        link:'event8',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:1,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event7",
+        img:'/background/trika.jpeg',
+        link:'event7',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },{
         id:2,
-        name:"event2",
-        img:'/background/trika.jpeg'
+        name:"event6",
+        img:'/background/trika.jpeg',
+        link:'event1',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:3,
-        name:"event3",
-        img:'/background/trika.jpeg'
+        name:"event5",
+        img:'/background/trika.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
 ]
 export const y2022 = [
     {
         id:0,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event4",
+        img:'/background/trika.jpeg',
+        link:'event4',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:1,
-        name:"event1",
-        img:'/background/trika.jpeg'
+        name:"event3",
+        img:'/background/trika.jpeg',
+        link:'event3',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },{
         id:2,
         name:"event2",
-        img:'/background/trika.jpeg'
+        img:'/background/trika.jpeg',
+        link:'event2',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
     {
         id:3,
-        name:"event3",
-        img:'/background/trika.jpeg'
+        name:"event1",
+        img:'/background/trika.jpeg',
+        link:'event1',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
     },
 ]

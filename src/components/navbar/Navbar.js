@@ -27,15 +27,15 @@ const Navbar = () => {
   };
   return (
     <div className='w-full h-full' >
-      <div className="navbar bg-[#05345E]">
-      <div className="navbar-container">
+      <div className="navbar bg-[#05345E] ">
+      <div className="navbar-container flex justify-center items-center ">
         <div className='logo'>
         <Link to="/" className="navbar-logo">
           Logo
         </Link>
         </div>
         
-        <div className="hidden md:flex">
+        <div className="hidden md:flex md:justify-center md:items-center">
           <Link to="/" className="navbar-link">
             Home
           </Link>

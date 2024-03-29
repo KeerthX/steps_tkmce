@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Slider.css";
+import { y2024 } from "../../data/eventlist";
+import SliderCard from "./SliderCard";
 
 
 const Slider = () => {
@@ -21,18 +23,19 @@ const Slider = () => {
         <article>
           <div>
             <ul>
-              <li><img src="/background/photo1.jpg" className="h-[400px] w-[600px]" /></li>
-              <li><img src="/background/photo2.jpg" className="h-[400px] w-[600px]" /></li>
-              <li><img src="/background/photo3.jpg" className="h-[400px] w-[600px]"  /></li>
-              <li><img src="/background/photo4.jpg" className="h-[400px] w-[600px]"  /></li>
+              
+              <li><SliderCard src="/background/photo1.jpg" text="photo1"/></li>
+              <li><SliderCard src="/background/photo2.jpg" text="photo2"/></li>
+              <li><SliderCard src="/background/photo3.jpg" text="photo3"/></li>
+              <li><SliderCard src="/background/photo4.jpg" text="photo4"/></li>
             </ul>
           </div>
           <div>
             <ul>
-            <li><img src="/background/photo1.jpg" className="h-[400px] w-[600px]"  /></li>
-            <li><img src="/background/photo2.jpg" className="h-[400px] w-[600px]"  /></li>
-            <li><img src="/background/photo3.jpg" className="h-[400px] w-[600px]"  /></li>
-            <li><img src="/background/photo4.jpg" className="h-[400px] w-[600px]"  /></li>
+            <li><SliderCard src="/background/photo1.jpg" text="photo1"/></li>
+            <li><SliderCard src="/background/photo2.jpg" text="photo2"/></li>
+            <li><SliderCard src="/background/photo3.jpg" text="photo3"/></li>
+            <li><SliderCard src="/background/photo4.jpg" text="photo4"/></li>
 
             </ul>
           </div>

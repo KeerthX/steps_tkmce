@@ -7,6 +7,7 @@ import Home from './components/home/Home';
 import About_Us from './components/about_us/About_Us';
 import Contact from './components/contact-us/Contact';
 import Gallery from './components/Gallery/Gallery';
+import Itempage from './components/itempage/Itempage';
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
         <Route path="/events" element={<Event />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact"  element={<Contact />}/>
+        <Route path="/:slug" element={<Itempage />} />
+        2
       </Routes>
     </div>
   )

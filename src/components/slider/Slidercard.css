@@ -1,0 +1,29 @@
+.slider-card-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .slider-card-image {
+    width: 600px;
+    height: 400px;
+  }
+  
+  .slider-card-hover-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.5rem;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .slider-card-container:hover .slider-card-hover-text {
+    opacity: 1;
+  }
+  
