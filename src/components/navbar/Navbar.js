@@ -69,7 +69,7 @@ const Navbar = () => {
         className={`fixed inset-0 w-full bg-[#232323] z-50  opacity-95 backdrop-blur-3xl menu transition duration-300 ease-in-out transform ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
         style={{ overflowY: 'auto' }}
       >
-        <ul className='flex flex-col pl-4 pt-10 list-none text-xl gap-10 z-50  h-full justify-center items-center opacity-100 text-black'>
+        <ul className='flex flex-col pl-4 pt-10 list-none text-xl gap-10 z-50  h-full justify-center items-center opacity-100 text-white'>
           <Link to="/" onClick={handleLinkClick}>
             Home
           </Link>
