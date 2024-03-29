@@ -49,15 +49,15 @@ const Eventslider = () => {
             <div className="flex pt-10 w-full ">
                 <hr style={{ border: 'none', height: '4px', background: '#05345E', marginTop: '25px' }} className="xl:w-40 lg:w-32 md:w-20  w-10" />
                 <div className="flex justify-center"><h1 className="text-4xl pb-10 font-poppins uppercase p-2 text-[#0B0B51]">Events</h1></div>
-                <hr style={{ border: 'none', height: '4px', background: '#05345E', marginTop: '25px', float: 'left' }} className=" xl:w-72 lg:w-56 md:w-44 w-32 " />
+                <hr style={{ border: 'none', height: '4px', background: '#05345E', marginTop: '25px' }} className=" xl:w-72 lg:w-56 md:w-44 w-32 " />
             </div>
             <div>
-                <div className='w-full '>
-                    <div className='mt-0 mb-4 md:pl-20 pl-0'>
+                <div className='w-full overflow-hidden'>
+                    <div >
                         <Slider {...settings}>
                             {y2024.map((event, index) => (
                                 <Link to={`/${event.link}`}>
-                                <div className='flex justify-center items-center pl-6 md:pl-0'>
+                                <div className='flex justify-center items-center '>
                                     <img key={index} src={event.img} className='h-96 w-60 ' alt='hello' />
                                 </div>
                                 </Link>
