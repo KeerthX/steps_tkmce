@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./Navbar.css"
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
+import logo from '../Asset/logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,12 +28,10 @@ const Navbar = () => {
   };
   return (
     <div className='w-full h-full' >
-      <div className="navbar bg-[#05345E]">
+      <div className="navbar">
       <div className="navbar-container">
         <div className='logo'>
-        <Link to="/" className="navbar-logo">
-          Logo
-        </Link>
+          <img src={logo} alt="Logo" />
         </div>
         
         <div className="hidden md:flex">
