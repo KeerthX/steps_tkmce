@@ -14,7 +14,7 @@ const About_Us = () => {
 
 
   </div>
-    <div className="w-full flex-col items-center justify-center font-poppins">
+    <div className="w-full flex-col items-center justify-center font-poppins p-2">
     
       <div className="outer-box">
         <div className="row">

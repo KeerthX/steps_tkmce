@@ -3,7 +3,7 @@ import './Contact.css'
 import contact from "../Asset/aboutus.jpeg"
 const Contact = () => {
   return (
-    <div className='contact-border'>
+    <div className='contact-border p-2'>
     <div className='contact-us-banner'>
       <div className='contact-contents'>
       <h2>Contact Us </h2>
