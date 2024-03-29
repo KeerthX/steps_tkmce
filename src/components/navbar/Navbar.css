@@ -24,7 +24,7 @@
 .navbar-container {
   justify-content: space-between;
   padding: 5px;
-  font-family: 'Open Sans', sans-serif;
+	font-family: "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
   list-style: none;
@@ -64,13 +64,14 @@
 
 .navbar-link::after {
   content: '';
+  display: block;
   position: absolute;
   left: 0;
   bottom: -3px;
-  width: 100%;
+  width:100%;
   height: 1px;
   background-color: transparent;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; 
 }
 
 .navbar-link:hover::after {
@@ -80,3 +81,4 @@
 .navbar-link:hover {
   transform: translateY(-3px);
 }
+

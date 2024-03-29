@@ -3,6 +3,14 @@
     padding:10px;
     margin-top:100px;
 }
+.contact-border h2{
+	font-family: "Times New Roman", Times, serif;
+  
+}
+.contact-border p{
+	font-family: "Times New Roman", Times, serif;
+  
+}
 .contact-contents{
   justify-content: center;
   align-items: center;
@@ -35,7 +43,6 @@
 
   .contact-form h2{
     margin-left: 300px;
-
   }
 
   .contact-info p {
@@ -44,12 +51,16 @@
    flex-direction: row;
    width:50%;
    margin-left: 500px;
+	font-family: "Times New Roman", Times, serif;
+
 
   }
   
   .contact-form label {
     display: block;
     margin-bottom: 5px;
+    font-family: "Times New Roman", Times, serif;
+
   }
   
   .contact-form input[type="text"],
@@ -60,6 +71,7 @@
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
   }
   
   .contact-form textarea {
@@ -78,4 +90,5 @@
   .contact-form button:hover {
     background-color: #555;
   }
+  
   

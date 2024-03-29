@@ -5,6 +5,8 @@
     
     color: rgb(11, 11, 81);
     margin-bottom: 40px; 
+	font-family: "Times New Roman", Times, serif;
+
 }
 
 .row {
@@ -35,6 +37,8 @@
     font-size: 15px;
     line-height: 20px;
     padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+
 }
 
 h4 {
