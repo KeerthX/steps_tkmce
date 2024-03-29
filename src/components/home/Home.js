@@ -12,6 +12,8 @@ const Home = () => {
       <Slider />
       <Eventslider />
       <About_Us />
+      <Contact/>
+      
     </div>
   )
 }
