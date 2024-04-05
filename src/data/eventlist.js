@@ -123,24 +123,7 @@ export const y2024 = [
         isRegistrationOpen:true,
         form:''
     },
-    {
-        id:3,
-        name:"event5",
-        img:'/event/photo15.jpeg',
-        link:'event5',
-        desc:"this is a event",
-        isRegistrationOpen:true,
-        form:''
-    },
-    {
-        id:3,
-        name:"event5",
-        img:'/event/photo16.jpeg',
-        link:'event5',
-        desc:"this is a event",
-        isRegistrationOpen:true,
-        form:''
-    },
+   
 ]
 export const y2023 = [
    

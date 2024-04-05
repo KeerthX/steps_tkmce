@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"
 
-import aboutus from "../Asset/aboutus.jpeg";
+
 const About_Us = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const About_Us = () => {
       </div>
       <div className="md:flex  font-poppins">
         <div className="md:w-1/2 w-full flex md:justify-start justify-center items-center p-10">
-          <img src={aboutus} className="h-96 w-96" />
+          <img src="/tkm-engineering-college.jpg" className="h-96 w-96" />
         </div>
 
         <div className="flex flex-col md:w-1/2 w-full pt-10 md:text-right text-left p-10" >
@@ -52,12 +52,12 @@ const About_Us = () => {
           </motion.div>
         </div>
         <div className="md:w-1/2 w-full flex md:justify-end justify-center items-center p-10">
-          <img src={aboutus} className="h-96 w-96" />
+          <img src="/background/photo4.jpg" className="h-96 w-96" />
         </div>
       </div>
       <div className="md:hidden  font-poppins">
         <div className="md:w-1/2 w-full flex md:justify-end justify-center items-center p-10">
-          <img src={aboutus} className="h-96 w-96" />
+          <img src="/background/photo4.jpg" className="h-96 w-[400px]" />
         </div>
         <motion.div
           initial="hidden"

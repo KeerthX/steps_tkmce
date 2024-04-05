@@ -1,7 +1,7 @@
 
 .contact-border{
     padding-top:80px;
-    height:100vh;
+    height:fit-content;
 }
 .contact-border h2{
 	font-family: "Times New Roman", Times, serif;

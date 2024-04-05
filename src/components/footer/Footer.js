@@ -29,8 +29,8 @@ const Footer = () => {
             <h2><a href='/contact'>CONTACT</a></h2>
             <div className='footer-below-left md:1/2 w-full md:pb-6'>
           <div className=' flex justify-center items-end md:justify-end md:pr-20  '>
-            <a href="#" ><InstagramIcon /></a>
-            <a href="#"><LinkedInIcon /></a>
+            <a href="https://www.instagram.com/stepstkmce/" ><InstagramIcon /></a>
+            <a href="https://www.linkedin.com/company/steps-tkmce/about/"><LinkedInIcon /></a>
           </div>
         </div>
 
