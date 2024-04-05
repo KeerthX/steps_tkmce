@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='md:flex   font-poppins'>
         <div className='flex-col md:w-1/2 w-full mb-10'>
           <h2 className='font-bold'>Trika</h2>
-          <p>Enrich empower emanate</p>
+          <p>Enrich.empower.emanate</p>
 
         </div>
 
