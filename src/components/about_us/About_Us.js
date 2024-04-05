@@ -7,7 +7,7 @@ const About_Us = () => {
     <div>
       <div className="flex pt-10 font-poppins justify-center">
         <hr style={{ border: 'none', height: '4px', background: '#05345E' }} className="xl:w-72 lg:w-56 md:w-44 w-24 mt-[15px] md:mt-[28px] " />
-        <div className="flex justify-center text-[#0B0B51]"><h1 className="sm:text-4xl text-sm pb-10 font-poppins uppercase  p-2">How We Make A Difference</h1></div>
+        <div className="flex justify-center text-[#0B0B51]"><h1 className="sm:text-4xl text-sm pb-10 font-poppins uppercase  p-2">About Us</h1></div>
         <hr style={{ border: 'none', height: '4px', background: '#05345E', float: 'left' }} className=" xl:w-72 lg:w-56 md:w-44 w-24 mt-[15px] md:mt-[28px] " />
       </div>
       <div className="md:flex  font-poppins">
