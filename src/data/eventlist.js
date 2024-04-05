@@ -123,9 +123,53 @@ export const y2024 = [
         isRegistrationOpen:true,
         form:''
     },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo15.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },{
+        id:3,
+        name:"event5",
+        img:'/event/photo16.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo19.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:false,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo18.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:false,
+        form:''
+    },
    
 ]
 export const y2023 = [
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo17.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:false,
+        form:''
+    },
    
 ]
 export const y2022 = [
