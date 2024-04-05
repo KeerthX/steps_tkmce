@@ -39,3 +39,7 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: 'CONSOLA';
+  src: local('CONSOLA'), url(./fonts/CONSOLA.TTF) format('TTF');
+}

@@ -2,10 +2,12 @@
 .navbar {
   position: absolute;
   width: 100%;
-  height: 75px;
+  height: 77px;
   box-shadow: 0px 2px 4px -3px #fff;
   background: rgb(11, 11, 81);
   z-index: 1000;;
+  display: block;
+  /* overflow:hidden ; */
  
 }
 .logo {
@@ -15,18 +17,25 @@
 }
 
 .logo img {
-  width: 60px; /* Adjust the width of the logo as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Adjust the width of the logo as needed */
+  height: 55px; /* Maintain aspect ratio */
+  margin-bottom:auto;
 }
 
+@media only screen and (max-width:900px) {
+  .logo{
+height: 45px;
+margin-bottom: 30px;
+  }
+}
 
 .navbar-container {
   justify-content: space-between;
-  padding: 5px;
 	font-family: "Times New Roman", Times, serif;
   display: flex;
   align-items: center;
   list-style: none;
+  height: 77px;
 }
 
 .navbar-container li {
@@ -38,25 +47,26 @@
   cursor: pointer;
 }
 
-.logo {
- padding:20px; 
-}
 
 .navbar-logo {
   color: #fff;
-  font-size: 24px;
+  font-size: 35px;
   text-decoration: none;
 }
 
 .navbar-links {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-right: 100px;
 }
 
 .navbar-link {
   color: #fff;
+  font-size: 18px;
   text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
   margin: 35px;
   position: relative;
 }

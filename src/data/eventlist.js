@@ -2,7 +2,7 @@ export const y2024 = [
     {
         id:0,
         name:"event12",
-        img:'/background/trika.jpeg',
+        img:'/event/photo1.jpeg',
         link:'event12',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -11,7 +11,7 @@ export const y2024 = [
     {
         id:1,
         name:"event11",
-        img:'/background/trika.jpeg',
+        img:'/event/photo2.jpeg',
         link:'event11',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -19,7 +19,7 @@ export const y2024 = [
     },{
         id:2,
         name:"event10",
-        img:'/background/trika.jpeg',
+        img:'/event/photo3.jpeg',
         link:'event10',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -28,18 +28,16 @@ export const y2024 = [
     {
         id:3,
         name:"event9",
-        img:'/background/trika.jpeg',
+        img:'/event/photo4.jpeg',
         link:'event9',
         desc:"this is a event",
         isRegistrationOpen:true,
         form:''
     },
-]
-export const y2023 = [
     {
         id:0,
         name:"event8",
-        img:'/background/trika.jpeg',
+        img:'/event/photo5.jpeg',
         link:'event8',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -48,7 +46,7 @@ export const y2023 = [
     {
         id:1,
         name:"event7",
-        img:'/background/trika.jpeg',
+        img:'/event/photo6.jpeg',
         link:'event7',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -56,7 +54,7 @@ export const y2023 = [
     },{
         id:2,
         name:"event6",
-        img:'/background/trika.jpeg',
+        img:'/event/photo7.jpeg',
         link:'event1',
         desc:"this is a event",
         isRegistrationOpen:true,
@@ -65,47 +63,88 @@ export const y2023 = [
     {
         id:3,
         name:"event5",
-        img:'/background/trika.jpeg',
+        img:'/event/photo8.jpeg',
         link:'event5',
-        desc:"this is a event",
-        isRegistrationOpen:true,
-        form:''
-    },
-]
-export const y2022 = [
-    {
-        id:0,
-        name:"event4",
-        img:'/background/trika.jpeg',
-        link:'event4',
-        desc:"this is a event",
-        isRegistrationOpen:true,
-        form:''
-    },
-    {
-        id:1,
-        name:"event3",
-        img:'/background/trika.jpeg',
-        link:'event3',
-        desc:"this is a event",
-        isRegistrationOpen:true,
-        form:''
-    },{
-        id:2,
-        name:"event2",
-        img:'/background/trika.jpeg',
-        link:'event2',
         desc:"this is a event",
         isRegistrationOpen:true,
         form:''
     },
     {
         id:3,
-        name:"event1",
-        img:'/background/trika.jpeg',
-        link:'event1',
+        name:"event5",
+        img:'/event/photo9.jpeg',
+        link:'event5',
         desc:"this is a event",
         isRegistrationOpen:true,
         form:''
     },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo10.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo11.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo12.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo13.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo14.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo15.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+    {
+        id:3,
+        name:"event5",
+        img:'/event/photo16.jpeg',
+        link:'event5',
+        desc:"this is a event",
+        isRegistrationOpen:true,
+        form:''
+    },
+]
+export const y2023 = [
+   
+]
+export const y2022 = [
+   
 ]

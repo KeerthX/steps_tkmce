@@ -1,0 +1,12 @@
+.logo-main{
+    height: 300px;
+    width: auto;
+}
+
+@media only screen and (max-width:900px) {
+    .logo-main{
+  height: 150px;
+  width: auto;
+    }
+  }
+  

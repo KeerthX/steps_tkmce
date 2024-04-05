@@ -29,7 +29,7 @@ function Itempage() {
                             <h1>{eventData.desc}</h1>
                         </div>
                     </div>
-                    {eventData.isRegistrationOpen? <div className="pt-5 flex justify-end"><Link to={eventData.form} ><button className="rounded-3xl bg-[#0B0B51] w-32 h-10">Register</button></Link></div>:<></>}
+                    {eventData.isRegistrationOpen? <div className="pt-5 flex justify-end"><Link to={eventData.form} ><button className="rounded-3xl bg-[#0B0B51] w-32 h-10 text-white">Register</button></Link></div>:<></>}
                 </div>
 
             </div>

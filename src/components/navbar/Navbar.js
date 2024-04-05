@@ -27,10 +27,10 @@ const Navbar = () => {
     setIsOpen(false); // Close the navbar when a link is clicked
   };
   return (
-    <div className='w-full h-full' >
+    <div className='w-full h-full font-poppins font-bold ' >
       <div className="navbar">
-      <div className="navbar-container">
-        <div className='logo'>
+      <div className="navbar-container md:pt-0 pt-5 pl-10  ">
+        <div className='logo '>
           <img src={logo} alt="Logo" />
         </div>
         
@@ -48,14 +48,14 @@ const Navbar = () => {
             Contact
           </Link>
         </div>
-        <div className='md:hidden block'>
+        <div className='md:hidden block pr-10'>
         {isOpen ? (
           <div onClick={() => setIsOpen(!isOpen)}>
-            <IoCloseSharp className='text-3xl cursor-pointer' />
+            <IoCloseSharp className='text-3xl cursor-pointer' color='white' />
           </div>
         ) : (
           <div onClick={() => setIsOpen(!isOpen)}>
-            <RiMenu3Fill className='text-3xl cursor-pointer' />
+            <RiMenu3Fill className='text-3xl cursor-pointer ' color='white'/>
           </div>
         )}
       </div>

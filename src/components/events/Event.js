@@ -6,17 +6,17 @@ const Event = () => {
     return (
         <div className='p-10 bg-white'>
             <div className='flex justify-center  pt-20'>
-                <h1 className='text-6xl font-poppins'>Events</h1>
+                <h1 className='text-6xl font-poppins font-bold'>Events</h1>
             </div>
             <div className='flex justify-center items-center'>
                 <div className='mt-12 flex flex-wrap justify-center items-center gap-5 pr-10 pl-10'>
 
                     <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
                         <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
-                            <p>2</p>
-                            <p>0</p>
-                            <p>2</p>
-                            <p>4</p>
+                            <p className='md:text-3xl'>2</p>
+                            <p className='md:text-3xl'>0</p>
+                            <p className='md:text-3xl'>2</p>
+                            <p className='md:text-3xl'>4</p>
                         </div>
                     </div>
 
@@ -30,10 +30,10 @@ const Event = () => {
 
                     <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
                     <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
-                        <p>2</p>
-                        <p>0</p>
-                        <p>2</p>
-                        <p>3</p>
+                        <p className='md:text-3xl'>2</p>
+                        <p className='md:text-3xl'>0</p>
+                        <p className='md:text-3xl'>2</p>
+                        <p className='md:text-3xl'>3</p>
                     </div>
                 </div>
                     {
@@ -45,10 +45,10 @@ const Event = () => {
                     }
                     <div className='sm:w-48 sm:h-64 h-10 w-48 p-2 bg-blue-700'>
                     <div className='flex sm:flex-col justify-center items-center text-center text-white h-full w-full '>
-                        <p>2</p>
-                        <p>0</p>
-                        <p>2</p>
-                        <p>2</p>
+                        <p className='md:text-3xl'>2</p>
+                        <p className='md:text-3xl'>0</p>
+                        <p className='md:text-3xl'>2</p>
+                        <p className='md:text-3xl'>2</p>
                     </div>
                 </div>
                     {

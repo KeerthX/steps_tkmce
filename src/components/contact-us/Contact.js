@@ -11,28 +11,16 @@ const Contact = () => {
         you need to provide the correct relative path or the absolute URL.</p>
       </div>
       <div className="contact-info">
-
-
       <p><strong>Email:</strong> example@example.com</p>
       <p><strong>Phone:</strong> +1234567890</p>
       <p><strong>Address:</strong> 123 Main St, City, Country</p>
     </div>
     
     </div>
-    <div className="contact-us-container">
-    <div className="contact-form">
-      <h2>Send us a message</h2>
-      <form action="#" method="POST">
-        <label htmlFor="name">Your Name</label>
-        <input type="text" id="name" name="name" required />
-        <label htmlFor="email">Your Email</label>
-        <input type="email" id="email" name="email" required />
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        <button type="submit">Send</button>
-      </form>
+
+    <div className='location'>
     </div>
-  </div>
+
   </div>
 
   )

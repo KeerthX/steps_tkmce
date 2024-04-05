@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Eventcard = ({ event }) => {
   return (
-    <Link to={`/${event.link}`}>
+   
     <div className="relative border-2 border-blue-400 h-64 w-48">
       <div className="absolute top-0 left-0 z-10 w-full flex justify-center">
         {event.isRegistrationOpen?<p className="text-white bg-[#0B0B51] p-2 rounded-b-2xl">Open</p>:<p className="text-white bg-[#0B0B51] p-2 rounded-b-2xl">Close</p>}
@@ -15,7 +15,7 @@ const Eventcard = ({ event }) => {
         <button className="border-0 bg-transparent text-white">Read more...</button>
       </div>
     </div>
-    </Link>
+   
     
   );
 };

@@ -5,7 +5,7 @@ const Gallerycard = ({ event }) => {
 
   return (
     <div 
-      className='relative xl:w-72 xl:h-56 h-44 w-64'
+      className='relative xl:w-80 xl:h-56 h-48 w-68 aspect-video'
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
